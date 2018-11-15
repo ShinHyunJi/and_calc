@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계 산 기"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:background="#c8bee1"
+        />
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="숫자입력"
+        />
+
+
+    <!--<EditText   입력창 한개로 끝내기 위해서 삭제-->
+        <!--android:id="@+id/num2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:hint="두번째 수"-->
+        <!--/>-->
+    <Button
+        android:id="@+id/plusBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="30dp"
+        android:background="#eaccec"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/minusBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="30dp"
+        android:background="#eaccec"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/multiBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textSize="30dp"
+        android:background="#eaccec"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/divBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="30dp"
+        android:background="#eaccec"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/equalBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="30dp"
+        android:background="#eaccec"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dc5e5e"
+        android:text="결과 : "
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
